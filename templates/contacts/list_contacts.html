@@ -38,6 +38,7 @@
     <p>
       <a href="{% url 'edit_contact' pk=contact.pk %}">Edit Contact</a><br>    
       <a class="red" href="{% url 'delete_contact' pk=contact.pk %}">Delete Contact</a>
+      <a href="{% url 'show_contact' pk=contact.pk%}">Contact Details</a>
     </p>
   </div>
   {% endfor %}
